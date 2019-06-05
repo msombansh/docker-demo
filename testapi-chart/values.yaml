@@ -10,7 +10,7 @@ service:
   name: testapi
   type: ClusterIP
   externalPort: 80
-  internalPort: 80
+  internalPort: 10000
 resources:
   limits:
     cpu: 100m
